@@ -1,0 +1,11 @@
+print("\n" + "=" * 10)
+x = int(input(" x: "))
+y = int(input(" y: "))
+z = int(input("nhập z: "))
+tich = x * y * z
+s = str(abs(tich))
+so_chu_so = len(s)
+chu_so_lon_nhat = max(int(c) for c in s)
+print(f"\nTích x * y * z = {tich}")
+print(f"Số chữ số của tích: {so_chu_so}")
+print(f"Chữ số lớn nhất trong tích: {chu_so_lon_nhat}")
